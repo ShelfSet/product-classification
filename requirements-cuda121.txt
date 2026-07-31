@@ -1,0 +1,15 @@
+# CUDA 12.1 installation.
+# PyTorch wheels are resolved from the official CUDA 12.1 wheel index.
+--index-url https://download.pytorch.org/whl/cu121
+--extra-index-url https://pypi.org/simple
+
+faiss-cpu
+numpy
+pandas
+pillow
+scikit-learn
+sentence-transformers
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+tqdm
+transformers

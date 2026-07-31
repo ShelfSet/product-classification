@@ -1,0 +1,11 @@
+# Default CPU installation.
+faiss-cpu
+numpy
+pandas
+pillow
+scikit-learn
+sentence-transformers
+torch
+torchvision
+tqdm
+transformers
