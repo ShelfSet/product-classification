@@ -10,3 +10,6 @@ __pycache__/
 # Large client datasets
 data/datasetv6_crops/
 data/datasetv8_crops/
+
+# Downloaded model artifacts (see scripts/download-models.js)
+data/downloaded/

@@ -26,6 +26,21 @@ The normal workflow has three stages:
 2. Optimize known/unknown thresholds from the cache.
 3. Run inference on one crop or a folder of crops.
 
+## Downloading Models
+
+Pre-trained model artifacts and datasets are available in this shared ShelfSet Google Drive folder:
+
+https://drive.google.com/drive/folders/1l-iA7Y6t8sXIwislklIE_2iRVqQ_PCW0?usp=sharing
+
+To download them into `data/downloaded/` automatically (requires [gdown](https://github.com/wkentaro/gdown)):
+
+```bash
+pip install gdown
+node scripts/download-models.js
+```
+
+The downloaded files are ignored by git (see `.gitignore`).
+
 For deployment, the most important artifacts are:
 
 - the memory-bank `.pkl` cache
